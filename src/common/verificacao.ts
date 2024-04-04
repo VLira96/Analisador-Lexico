@@ -1,7 +1,6 @@
 const verificacao = (lista: string[], texto: string) => {
 
-    // não é sensivel a maiúsculas ou minúsculas, por razões de escolha mesmo
-    const listaTexto = texto.toLowerCase().split(' ');
+    const listaTexto = texto.split(' ');
 
     for (const termo of listaTexto) {
         if (lista.indexOf(termo) === -1) {

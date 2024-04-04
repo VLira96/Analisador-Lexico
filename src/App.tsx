@@ -15,7 +15,7 @@ function App() {
           <h1 className="text-2xl">Analizador Léxico</h1>
 
           <div className="flex flex-col items-center gap-4">
-            <Formulario setTexto={setTexto} />
+            <Formulario setTexto={setTexto} texto={texto} />
             <p className={`rounded-full px-3 py-1 text-black ${respostaDaVerificacao==='Termos válidos'? 'bg-correto':'bg-incorreto'}`}>{respostaDaVerificacao}</p>
           </div>
         </div>

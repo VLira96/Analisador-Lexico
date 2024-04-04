@@ -6,7 +6,7 @@ const Formulario = (props: IFormulario) => {
         props.setTexto(valor);
     }
 
-    let valor: string;
+    let valor = props.texto;
 
     return (
         <form onSubmit={submitTexto}>
