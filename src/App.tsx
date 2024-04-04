@@ -5,16 +5,18 @@ import Formulario from "./components/formulario";
 
 function App() {
   const [texto, setTexto] = useState<string>('');
+  
+  const respostaDaVerificacao = verificacao(alfabeto, texto);
 
   return (
     <>
-      <main className="m-24 flex flex-col items-center gap-48">
+      <main className="m-24 flex flex-col items-center gap-40">
         <div className="flex flex-col items-center gap-10">
           <h1 className="text-2xl">Analizador Léxico</h1>
 
           <div className="flex flex-col items-center gap-4">
             <Formulario setTexto={setTexto} />
-            <p>{verificacao(alfabeto, texto)}</p>
+            <p className={`rounded-full px-3 py-1 text-black ${respostaDaVerificacao==='Termos válidos'? 'bg-correto':'bg-incorreto'}`}>{respostaDaVerificacao}</p>
           </div>
         </div>
         <section className="flex flex-col items-center gap-4">
