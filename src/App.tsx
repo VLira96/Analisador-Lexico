@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Header />
 
-      <main className="m-12 flex flex-col items-center gap-40">
+      <main className="m-12 flex flex-col items-center gap-16">
         <Routes>
           <Route path="/" element={<Case />} />
           <Route path="/caseinsensitive" element={<NoCase />} />

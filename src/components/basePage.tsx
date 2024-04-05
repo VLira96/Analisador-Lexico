@@ -13,9 +13,9 @@ const BasePage = (props: IBasePage) => {
                 <h1 className="text-2xl">{props.titulo}</h1>
                 <div className="flex flex-col items-center gap-4">
                     <Formulario setTexto={setTexto} texto={texto} />
-                    <p className={`rounded-full px-3 py-1 text-black ${respostaDaVerificacao === 'Termos válidos' ? 'bg-correto' : 'bg-incorreto'}`}>{respostaDaVerificacao}</p>
                 </div>
             </div>
+                    <p className={`rounded-full px-3 py-1 text-xl text-black ${respostaDaVerificacao === 'Termos válidos' ? 'bg-correto' : 'bg-incorreto'}`}>{respostaDaVerificacao}</p>
             <section className="flex flex-col items-center gap-4">
                 <h2 className="text-xl">Os termos que se encontram no alfabeto são os seguintes:</h2>
                 <p>{props.listaParagrafo}</p>
