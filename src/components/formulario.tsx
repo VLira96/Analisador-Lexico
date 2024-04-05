@@ -11,7 +11,7 @@ const Formulario = (props: IFormulario) => {
     return (
         <form className="flex flex-col items-center gap-2" onSubmit={submitTexto}>
             <textarea className="text-black text-xl rounded w-auto" cols={70} rows={4} onChange={evento => valor = evento.target.value} required></textarea>
-            <button className="bg-blue-800 transition-colors  hover:bg-blue-700 px-3 py-1 rounded-full" type="submit">Verificar</button>
+            <button className="bg-blue-900 transition-colors  hover:bg-blue-800 px-3 py-1 rounded-full" type="submit">Verificar</button>
         </form>
     );
 }

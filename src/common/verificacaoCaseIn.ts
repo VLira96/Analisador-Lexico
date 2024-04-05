@@ -1,6 +1,4 @@
-const verificacao = (lista: string[], texto: string) => {
-
-    // não é sensivel a maiúsculas ou minúsculas, por razões de escolha mesmo
+const verificacaoCaseIn = (lista: string[], texto: string) => {
     const listaTexto = texto.toLowerCase().split(/\s+/);
 
     for (const termo of listaTexto) {
@@ -11,4 +9,4 @@ const verificacao = (lista: string[], texto: string) => {
     return 'Termos válidos';
 }
 
-export default verificacao;
+export default verificacaoCaseIn;
