@@ -1,4 +1,6 @@
 const listaAlfabeto: string[] = [
+    "var1",
+    "var2",
     "for",
     "while",
     "and",
