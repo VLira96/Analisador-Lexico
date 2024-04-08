@@ -12,4 +12,4 @@ root.render(
   </React.StrictMode>
 );
 
-document.body.classList.add('bg-gray-800', 'text-white')
+document.body.classList.add('bg-gray-800', 'text-white');

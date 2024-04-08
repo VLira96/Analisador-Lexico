@@ -7,7 +7,7 @@ const Erro404 = () => {
             </div>
             <img className="" src="https://static-00.iconduck.com/assets.00/robot-angry-outline-icon-512x465-c3lkbth4.png" alt="robozin bravo" />
         </div>
-    )
+    );
 }
 
 export default Erro404;

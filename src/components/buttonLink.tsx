@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import IButtonLink from "../interfaces/IButtonLink";
 
 const ButtonLink = (props: IButtonLink) => {
