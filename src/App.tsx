@@ -7,7 +7,6 @@ import Erro404 from "./pages/erro404";
 
 function App() {
 
-
   return (
     <BrowserRouter>
       <Header />
