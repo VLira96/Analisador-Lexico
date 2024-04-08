@@ -1,5 +1,5 @@
-import listaAlfabeto from "../common/listaAlfabeto";
-import verificacaoCase from "../common/verificacaoCase";
+import listaAlfabeto from "../utils/listaAlfabeto";
+import verificacaoCase from "../utils/verificacaoCase";
 import BasePage from "../components/basePage";
 
 const Case = () => {

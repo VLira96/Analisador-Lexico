@@ -1,5 +1,5 @@
-import listaAlfabeto from "../common/listaAlfabeto";
-import verificacaoCaseIn from "../common/verificacaoCaseIn";
+import listaAlfabeto from "../utils/listaAlfabeto";
+import verificacaoCaseIn from "../utils/verificacaoCaseIn";
 import BasePage from "../components/basePage"
 
 const NoCase = () => {

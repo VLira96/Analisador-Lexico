@@ -1,5 +1,5 @@
-import listaAlfabetoTeste from "../common/listaAlfabetoTestes";
-import verificacaoNoCase from "../common/verificacaoCaseIn";
+import listaAlfabetoTeste from "../utils/listaAlfabetoTestes";
+import verificacaoNoCase from "../utils/verificacaoCaseIn";
 import BasePage from "../components/basePage";
 
 const Testes = () => {
