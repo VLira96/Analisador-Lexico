@@ -1,4 +1,4 @@
-<!-- integrantes: Vinícius Sepúlveda Pereira Lira, Reinado José Damacena Silva, Renato Almeida -->
+<!-- integrantes: Vinícius Sepúlveda Pereira Lira, Reinado José Damacena Silva, Renato Almeida Carvalho -->
 
 # Getting Started with Create React App
 
